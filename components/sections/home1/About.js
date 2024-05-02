@@ -17,13 +17,13 @@ export default function about() {
             <div className="image_block_one">
               <div className="image-box">
                 <div className="shape float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
-                <figure className="image"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                <figure className="image"><img src="assets/images/custom/about-us.png" alt="" /></figure>
                 <div className="icon-one"><i className="icon-13"></i></div>
                 <div className="icon-two"><i className="icon-14"></i></div>
-                <div className="text-box">
+                {/* <div className="text-box">
                   <h3>Wade Warren</h3>
                   <span>Medical Assistant</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -32,18 +32,18 @@ export default function about() {
               <div className="content-box ml_30">
                 <div className="sec-title mb_15">
                   <span className="sub-title">About Us</span>
-                  <h2>Medical services & diagnostics</h2>
+                  <h2>Medical Services</h2>
                 </div>
                 <div className="text-box mb_40">
-                  <h6>Committed To Delivering High Quality Medical & Diagnostics Services!</h6>
-                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                  <ul className="list-style-one clearfix">
+                  <h6>Committed To Delivering High Quality Medical Services!</h6>
+                  <p>We drive the maximum limits of satisfactions and the best services what's possible for our patients.</p>
+                  {/* <ul className="list-style-one clearfix">
                     <li>Ambulance Services</li>
                     <li>Oxizen on Wheel</li>
                     <li>Pharmacy on Clinic</li>
                     <li>On duty Doctors</li>
                     <li>24/7 Medical Emergency</li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="btn-box">
                   <Link href="/#" className="theme-btn btn-one"><span>Discover More</span></Link>

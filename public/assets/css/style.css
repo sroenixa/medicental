@@ -640,6 +640,16 @@ img {
   line-height: 50px;
   border-radius: 50%;
 }
+
+.wp-button{
+  position: fixed;
+  right: 100px;
+  bottom: 55px;
+  z-index: 99;
+  width: 60px;
+  height: 60px;
+}
+
 .scroll-to-top:hover {
   color: #fff;
   background: #222;

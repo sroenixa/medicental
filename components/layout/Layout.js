@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic';
 const WOW = dynamic(() => import('wowjs/dist/wow'));
 
 import BackToTop from '../elements/BackToTop';
+import WhatsappButton from '../elements/WhatsappButton';
 import DataBg from "../elements/DataBg";
 import Breadcrumb from './Breadcrumb';
 import SearchPopup from "./SearchPopup";
@@ -65,6 +66,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle === 2 && <Footer2 />}
             </div>
             <BackToTop scroll={scroll} />
+            <WhatsappButton/>
         </>
     );
 }

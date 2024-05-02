@@ -13,7 +13,7 @@ export default function Funfacts() {
                                 <div className="inner-box">
                            
                                 <div className="count-outer count-box">
-                                    <CounterUp end={75} /><span>+</span>
+                                    <CounterUp end={100} /><span>+</span>
                                 </div>
                                 <span className="text">Expert Doctors</span>
                                 </div>
@@ -24,7 +24,7 @@ export default function Funfacts() {
                                 <div className="inner-box">
                                
                                 <div className="count-outer count-box">
-                                    <CounterUp end={7} /><span>k</span>
+                                    <CounterUp end={1000} />+
                                 </div>
                                 <span className="text">Happy Patients</span>
                                 </div>
@@ -35,9 +35,9 @@ export default function Funfacts() {
                                 <div className="inner-box">
                                 
                                 <div className="count-outer count-box">
-                                    <CounterUp end={850} />
+                                    <CounterUp end={100} />%
                                 </div>
-                                <span className="text">Modern Rooms</span>
+                                <span className="text">Reliability</span>
                                 </div>
                             </div>
                         </div>
@@ -46,9 +46,9 @@ export default function Funfacts() {
                                 <div className="inner-box">
                                
                                 <div className="count-outer count-box">
-                                    <CounterUp end={15} />
+                                    <CounterUp end={100} />%
                                 </div>
-                                <span className="text">Awards Win</span>
+                                <span className="text">Satisfaction</span>
                                 </div>
                             </div>
                         </div>

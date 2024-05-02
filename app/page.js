@@ -24,8 +24,8 @@ export default function Home() {
                 <Services />
                 <WhyChooseUs />
                 <Funfacts />
-                <Team />
-                <Video />
+                {/* <Team /> */}
+                {/* <Video /> */}
                 <Process />
                 <Testimonial />
                 <Pricing />

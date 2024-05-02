@@ -16,15 +16,15 @@ export default function Banner() {
             <div className="content-box">
               <span className="upper-text">Highest level of service you can find</span>
               <h2>Take <span>Care of Your</span> Health Now.</h2>
-              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              <p>We are dedicated to providing you with the highest quality services to protect and enhance your health.</p>
               <div className="btn-box">
-                <Link href="/#" className="theme-btn btn-two"><span>Explore Our Service</span></Link>
+                <Link href="/services" className="theme-btn btn-two"><span>Explore Our Service</span></Link>
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 image-column">
             <div className="image-box">
-              <figure className="image float-bob-y"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
+              <figure className="image float-bob-y"><img src="assets/images/custom/main_banner.png" alt="" /></figure>
             </div>
           </div>
         </div>

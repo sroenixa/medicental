@@ -7,11 +7,7 @@ export default function Menu() {
     return (
         <>
 
-            {/* <ul className="sub-menu">
-                <Link className={router.pathname == "/" ? "active" : ""}>Home Default</Link>
-                <Link className={router.pathname == "/index-2" ? "active" : ""}>Home Interior</Link>
-            </ul> */}
-
+        
             <ul className="navigation clearfix">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about-us">About Us</Link></li>
@@ -26,8 +22,8 @@ export default function Menu() {
                         <li><Link href="/service-details-6">Modern Laboratory</Link></li>
                     </ul>
                 </li>
-                     <li><Link href="/">Team</Link></li>
-                     <li className="dropdown"><Link href="/">Blog</Link>
+                     <li><Link href="/our-clinic">Our Clinic</Link></li>
+                     <li className="dropdown"><Link href="/">Blogs</Link>
                             <ul>
                                 <li><Link href="/blog">Blog Grid</Link></li>
                                 <li><Link href="/blog-2">Blog Sidebar</Link></li>
