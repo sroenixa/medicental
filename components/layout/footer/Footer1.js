@@ -13,61 +13,26 @@ export default function Footer1() {
       <div className="widget-section pt_120 pb_100">
         <div className="auto-container">
           <div className="row clearfix">
-            <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+            <div className="col-lg-6 col-md-6 col-sm-12 footer-column">
             <div className="footer-widget logo-widget">
                                 <figure className="footer-logo"><Link href="/"><img src="assets/images/footer-logo.png" alt="" /></Link></figure>
-                                <p>Lorem ipsum dolor sit amet constetur adipiscing elit. Etiam eu turpis mostie dictum est a, mattis tellus.</p>
+                                <p>Highest level of service you can find.</p>
                                 <ul className="social-links clearfix">
-                                    <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                    <li><Link href="/"><i className="icon-5"></i></Link></li>
-                                    <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                    <li><Link href="/"><i className="icon-7"></i></Link></li>
+                                    <li><Link href="https://www.instagram.com/medicentalagency/"><i className="icon-4"></i></Link></li>
+                                    <li><Link href="https://www.facebook.com/medicental"><i className="icon-7"></i></Link></li>
                                 </ul>
                             </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-            <div className="footer-widget links-widget ml_110">
-                                <div className="widget-title">
-                                    <h3>Quick Link</h3>
-                                </div>
-                                <div className="widget-content">
-                                    <ul className="links-list clearfix">
-                                        <li><Link href="/">Home</Link></li>
-                                        <li><Link href="about">About Us</Link></li>
-                                        <li><Link href="service">Services</Link></li>
-                                        <li><Link href="/">Elements</Link></li>
-                                        <li><Link href="contact">Contacts Us</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-            <div className="footer-widget links-widget ml_55">
-                                <div className="widget-title">
-                                    <h3>Useful Links</h3>
-                                </div>
-                                <div className="widget-content">
-                                    <ul className="links-list clearfix">
-                                        <li><Link href="/">Privacy Policy</Link></li>
-                                        <li><Link href="/">Terms &</Link></li>
-                                        <li><Link href="/">Condition</Link></li>
-                                        <li><Link href="/">Support</Link></li>
-                                        <li><Link href="/">Disclaimer</Link></li>
-                                        <li><Link href="/">Faq</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+            <div className="col-lg-6 col-md-6 col-sm-12 footer-column">
             <div className="footer-widget contact-widget">
                                 <div className="widget-title">
                                     <h3>Contact us</h3>
                                 </div>
                                 <div className="widget-content">
                                     <ul className="info-list">
-                                        <li><img src="assets/images/icons/icon-1.png" alt="" />3891 Ranchview Dr. Richardson, California USA</li>
+                                        <li><img src="assets/images/icons/icon-1.png" alt="" />İstanbul,Turkey</li>
                                         <li><i className="icon-2"></i><Link href="tel:+905402440212">+905402440212</Link></li>
-                                        <li><i className="icon-26"></i><Link href="mailto:example@info.com">example@info.com</Link></li>
+                                        <li><i className="icon-26"></i><Link href="mailto:info@medicental.com">info@medicental.com</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -78,15 +43,8 @@ export default function Footer1() {
       <div className="footer-bottom">
         <div className="auto-container">
           <div className="bottom-inner">
-            <ul className="footer-nav clearfix">
-              <li><Link href="/">Privacy Policy</Link></li>
-              <li><Link href="/">Terms of Use</Link></li>
-              <li><Link href="/">Sales and Refunds</Link></li>
-              <li><Link href="/">Legal</Link></li>
-              <li><Link href="/">Site Map</Link></li>
-            </ul>
             <div className="copyright">
-              <p>&copy; 2024 All Rights Reserved</p>
+              <p>&copy; Medicental 2024 All Rights Reserved</p>
             </div>
           </div>
         </div>

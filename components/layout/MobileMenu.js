@@ -25,6 +25,29 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
     }
   };
 
+  const [isSubActive, seSubtIsActive] = useState({
+    status: false,
+    key: "",
+    subMenuKey: "",
+  });
+
+  const handleSubToggle = (key, subMenuKey = "") => {
+    if (isSubActive.key === key && isSubActive.subMenuKey === subMenuKey) {
+      seSubtIsActive({
+        status: false,
+        key: "",
+        subMenuKey: "",
+      });
+    } else {
+      seSubtIsActive({
+        status: true,
+        key,
+        subMenuKey,
+      });
+    }
+  };
+
+
   return (
     <>
       <div className="mobile-menu">
@@ -33,7 +56,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
         <nav className="menu-box">
           <div className="nav-logo">
             <Link href="/">
-              <img src="/assets/images/logo.png" alt="" />
+              <img src="/assets/images/footer-logo.png" alt="" />
             </Link>
           </div>
           <div className="menu-outer">
@@ -41,61 +64,124 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
               className="collapse navbar-collapse show clearfix"
               id="navbarSupportedContent">
               <ul className="navigation clearfix">
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/about-us">About Us</Link></li>
                 <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
-                  <Link href="/" >Home</Link>
+                  <Link href="/dummy-link">Find Treatment</Link>
                   <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                    <li><Link href="/"onClick={handleMobileMenu}>Home Page One</Link></li>
-                    <li><Link href="/index-2" onClick={handleMobileMenu}>Home Page Two</Link></li>
-                    <li><Link href="/index-3" onClick={handleMobileMenu}>Home Page Three</Link></li>
-                    <li><Link href="/onepage" onClick={handleMobileMenu}>One Page Home</Link></li>
+                        <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                            <Link href="/#">Hair Transplant</Link>
+                            <ul className="px-4" style={{ display: `${isSubActive.key == 1 ? "block" : "none"}` }}>
+                                  <li><Link href="/dummy-link">FUE Hair Transplant</Link></li>
+                                  <li><Link href="/dummy-link">FUT Hair Transplant</Link></li>
+                                  <li><Link href="/dummy-link">DHI Hair Transplant</Link></li>
+                                  <li><Link href="/dummy-link">Beard Transplant</Link></li>
+                                  <li><Link href="/dummy-link">Eyebrow Transplant</Link></li>
+                                  <li><Link href="/dummy-link">Mustache Transplant</Link></li>
+                                  <li><Link href="/dummy-link">Sapphire Hair Transplant</Link></li>
+                                  <li><Link href="/dummy-link">PRP</Link></li>
+                            </ul>
+                            <div className={isSubActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleSubToggle(1)}><span className="fa fa-angle-right" /></div>
+                        </li>
+
+                        <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                            <Link href="/#">Plastic Surgery</Link>
+                            <ul className="px-4" style={{ display: `${isSubActive.key == 2 ? "block" : "none"}` }}>
+                                <li><Link href="/dummy-link">Liposuction</Link></li>
+                                <li><Link href="/dummy-link">Rhinoplasty</Link></li>
+                                <li><Link href="/dummy-link">Breast Implants</Link></li>
+                                <li><Link href="/dummy-link">Butt Implants</Link></li>
+                                <li><Link href="/dummy-link">Tummy Tuck</Link></li>
+                                <li><Link href="/dummy-link">Mummy Makeover</Link></li>
+                                <li><Link href="/dummy-link">Eyelid Surgery</Link></li>
+                                <li><Link href="/dummy-link">Facelift</Link></li>
+                                <li><Link href="/dummy-link">Breast Lift</Link></li>
+                                <li><Link href="/dummy-link">Brazilian Butt Lift</Link></li>
+                                <li><Link href="/dummy-link">Body Lift</Link></li>
+                                <li><Link href="/dummy-link">Arm Lift</Link></li>
+                                <li><Link href="/dummy-link">Chin Implant</Link></li>
+                                <li><Link href="/dummy-link">Ultrasonic Rhinoplasty</Link></li>
+                                <li><Link href="/dummy-link">Fat Transfer</Link></li>
+                                <li><Link href="/dummy-link">Gynecomastia</Link></li>
+                                <li><Link href="/dummy-link">Neck Lift</Link></li>
+                                <li><Link href="/dummy-link">Brow Lift</Link></li>
+                                <li><Link href="/dummy-link">Fat Transfer</Link></li>
+                            </ul>
+                            <div className={isSubActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleSubToggle(2)}><span className="fa fa-angle-right" /></div>
+                        </li>
+
+                        <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                            <Link href="/#">Bariatric Surgery</Link>
+                            <ul className="px-4" style={{ display: `${isSubActive.key == 3 ? "block" : "none"}` }}>
+                                <li><Link href="/dummy-link">Gastric Bypass Surgery</Link></li>
+                                <li><Link href="/dummy-link">Gastric Sleeve</Link></li>
+                                <li><Link href="/dummy-link">Gastric Balloon</Link></li>
+                                <li><Link href="/dummy-link">Gastric Band</Link></li>
+                                <li><Link href="/dummy-link">Endoscopic Sleeve Gastroplasty</Link></li>
+                                <li><Link href="/dummy-link">Diabetes Surgery</Link></li>
+                                <li><Link href="/dummy-link">Laparoscopic Ileal Interposition</Link></li>
+                                <li><Link href="/dummy-link">Floppy Nissen Fundoplication</Link></li>
+                                <li><Link href="/dummy-link">Gastric Sleeve Revision</Link></li>
+                            </ul>
+                            <div className={isSubActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleSubToggle(3)}><span className="fa fa-angle-right" /></div>
+                        </li>
+
+
+                        <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                            <Link href="/#">Dentistry</Link>
+                            <ul className="px-4" style={{ display: `${isSubActive.key == 4 ? "block" : "none"}` }}>
+                                <li><Link href="/dummy-link">Root Canal Treatment</Link></li>
+                                <li><Link href="/dummy-link">Teeth Cleaning</Link></li>
+                                <li><Link href="/dummy-link">Crowns</Link></li>
+                                <li><Link href="/dummy-link">Teeth Whitening</Link></li>
+                                <li><Link href="/dummy-link">Sinus Lift</Link></li>
+                                <li><Link href="/dummy-link">Hollywood Smile</Link></li>
+                                <li><Link href="/dummy-link">All-on-4</Link></li>
+                                <li><Link href="/dummy-link">Bone Graft</Link></li>
+                                <li><Link href="/dummy-link">Tooth Filling</Link></li>
+                                <li><Link href="/dummy-link">Dental Implants</Link></li>
+                                <li><Link href="/dummy-link">Veneers</Link></li>
+                                <li><Link href="/dummy-link">Dental Bridge</Link></li>
+                            </ul>
+                            <div className={isSubActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleSubToggle(4)}><span className="fa fa-angle-right" /></div>
+                        </li>
+
+
+                        <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                            <Link href="/#">Eye Care</Link>
+                            <ul className="px-4" style={{ display: `${isSubActive.key == 5 ? "block" : "none"}` }}>
+                            <li><Link href="/dummy-link">LASIK Eye Surgery</Link></li>
+                                <li><Link href="/dummy-link">Cataract Surgery</Link></li>
+                                <li><Link href="/dummy-link">Smile Eye Surgery</Link></li>
+                                <li><Link href="/dummy-link">PRK Eye Surgery</Link></li>
+                                <li><Link href="/dummy-link">Corneal Transplant</Link></li>
+                                <li><Link href="/dummy-link">Strabismus Treatment</Link></li>
+                                <li><Link href="/dummy-link">Artificial Corneal Transplant</Link></li>
+                            </ul>
+                            <div className={isSubActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleSubToggle(5)}><span className="fa fa-angle-right" /></div>
+                        </li>
+                        <li className={isActive.key == 1 ? "current" : ""}>
+                          <Link href="#">General Surgery</Link>
+                        </li>
+
+                        <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                            <Link href="/#">Others</Link>
+                            <ul className="px-4" style={{ display: `${isSubActive.key == 6 ? "block" : "none"}` }}>
+                            <li><Link href="/dummy-link">LASIK Eye Surgery</Link></li>
+                            <li><Link href="/dummy-link">Diagnostic Imaging</Link></li>
+                                <li><Link href="/dummy-link">Ear, Nose and Throat</Link></li>
+                                <li><Link href="/dummy-link">Orthopedics</Link></li>
+                                <li><Link href="/dummy-link">Spinal Surgery</Link></li>
+                                <li><Link href="/dummy-link">Oncology</Link></li>
+                            </ul>
+                            <div className={isSubActive.key == 6 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleSubToggle(6)}><span className="fa fa-angle-right" /></div>
+                        </li>
+
+
+
                   </ul>
                   <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
                 </li>
-                <li><Link href="/about-us">About</Link></li>
-                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}>
-                  <Link href="/#">Services</Link>
-                  <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                    <li><Link href="/service" onClick={handleMobileMenu}>Our Services</Link></li>
-                    <li><Link href="/service-details" onClick={handleMobileMenu}>Cardioligy</Link></li>
-                                        <li><Link href="/service-details-2" onClick={handleMobileMenu}>Dental Clinic</Link></li>
-                                        <li><Link href="/service-details-3" onClick={handleMobileMenu}>NeuroSergery</Link></li>
-                                        <li><Link href="/service-details-4" onClick={handleMobileMenu}>Medical</Link></li>
-                                        <li><Link href="/service-details-5" onClick={handleMobileMenu}>Pediatrics</Link></li>
-                                        <li><Link href="/service-details-6" onClick={handleMobileMenu}>Modern Laboratory</Link></li>
-                  </ul>
-                  <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
-                </li>
-                
-                    <li className={isActive.key  == 3 ? "dropdown current" : "dropdown"}>
-                      <Link href="/#">Team</Link>
-                      <ul style={{ display: `${isActive.key  == 3 ? "block" : "none"}` }}>
-                        <li><Link href="/team" onClick={handleMobileMenu}>Our Team</Link></li>
-                        <li><Link href="/team-details" onClick={handleMobileMenu}>Team Details</Link></li>
-                      </ul>
-                      <div className={isActive.key  == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
-                    </li>
-                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
-                  <Link href="/#">Pages</Link>
-                  <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                        <li className={isActive.subMenuKey == 5 ? "dropdown current" : "dropdown"}><Link href="/#">News</Link>
-                          <ul style={{ display: `${isActive.subMenuKey == 5 ? "block" : "none"}` }}>
-                          <li><Link href="/blog" onClick={handleMobileMenu}>Blog Grid</Link></li>
-                              <li><Link href="/blog-2" onClick={handleMobileMenu}>Blog Sidebar</Link></li>
-                              <li><Link href="/blog-details" onClick={handleMobileMenu}>Blog Details</Link></li>
-                          </ul>
-                          <div className={isActive.subMenuKey == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4,5)}><span className="fa fa-angle-right" /></div>
-                      </li>
-                      <li><Link href="/tesmonial" onClick={handleMobileMenu}>Tesmonial</Link></li>
-                        <li><Link href="/works" onClick={handleMobileMenu}>How it works</Link></li>
-                        <li><Link href="/chooseus" onClick={handleMobileMenu}>Why Choose Us</Link></li>
-                        <li><Link href="/pricing-table" onClick={handleMobileMenu}>Pricing-Table</Link></li>
-                        <li><Link href="/faq" onClick={handleMobileMenu}>Faq's</Link></li>
-                        <li><Link href="/gallery" onClick={handleMobileMenu}>Gallery</Link></li>
-                        <li><Link href="/appointment" onClick={handleMobileMenu}>Make Appointment</Link></li>
-                        <li><Link href="/error-page" onClick={handleMobileMenu}>Page Not Found</Link></li>
-                      </ul>
-                      <div className={isActive.key  == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
-                    </li>
                 <li><Link href="/contact" onClick={handleMobileMenu}>Contact</Link></li>
               </ul>
             </div>
@@ -103,19 +189,16 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
           <div className="contact-info">
           <h4>Contact Info</h4>
           <ul>
-            <li>Chicago 12, Melborne City, USA</li>
-            <li><Link href="tel:+8801682648101">+88 01682648101</Link></li>
-            <li><Link href="mailto:info@example.com">info@example.com</Link></li>
+            <li>İstanbul, Turkey</li>
+            <li><Link href="tel:+905402440212">+905402440212</Link></li>
+            <li><Link href="mailto:info@medicental.com">info@medicental.com</Link></li>
           </ul>
         </div>
           {/*Social Links*/}
           <div className="social-links">
           <ul className="clearfix">
-            <li><Link href="/"><span className="fab fa-twitter"></span></Link></li>
-            <li><Link href="/"><span className="fab fa-facebook-square"></span></Link></li>
-            <li><Link href="/"><span className="fab fa-pinterest-p"></span></Link></li>
-            <li><Link href="/"><span className="fab fa-instagram"></span></Link></li>
-            <li><Link href="/l"><span className="fab fa-youtube"></span></Link></li>
+            <li><Link href="https://www.facebook.com/medicental"><span className="fab fa-facebook-square"></span></Link></li>
+            <li><Link href="https://www.instagram.com/medicentalagency/"><span className="fab fa-instagram"></span></Link></li>
           </ul>
         </div>
       </nav>

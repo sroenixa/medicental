@@ -36,7 +36,7 @@ export default function about() {
                 </div>
                 <div className="text-box mb_40">
                   <h6>Committed To Delivering High Quality Medical Services!</h6>
-                  <p>We drive the maximum limits of satisfactions and the best services what's possible for our patients.</p>
+                  <p>Buraya yeni text gelecek</p>
                   {/* <ul className="list-style-one clearfix">
                     <li>Ambulance Services</li>
                     <li>Oxizen on Wheel</li>
@@ -44,9 +44,6 @@ export default function about() {
                     <li>On duty Doctors</li>
                     <li>24/7 Medical Emergency</li>
                   </ul> */}
-                </div>
-                <div className="btn-box">
-                  <Link href="/#" className="theme-btn btn-one"><span>Discover More</span></Link>
                 </div>
               </div>
             </div>

@@ -26,10 +26,10 @@ export default function Home() {
                 <Funfacts />
                 {/* <Team /> */}
                 {/* <Video /> */}
-                <Process />
-                <Testimonial />
+                {/* <Process /> */}
                 <Pricing />
-                <News />
+                <Testimonial />
+                {/* <News /> */}
                 <Subscribe />
             </Layout>
         </>

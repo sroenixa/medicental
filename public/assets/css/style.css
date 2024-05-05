@@ -628,8 +628,8 @@ img {
 
 .scroll-to-top{
   position: fixed;
-  right: 20px;
-  bottom: 60px;
+  left: 20px;
+  bottom: 30px;
   transform: rotate(0deg);
   z-index: 99;
   width: 50px;
@@ -643,8 +643,8 @@ img {
 
 .wp-button{
   position: fixed;
-  right: 100px;
-  bottom: 55px;
+  left: 100px;
+  bottom: 25px;
   z-index: 99;
   width: 60px;
   height: 60px;

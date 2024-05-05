@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${poppins.variable}`}>
-            <Script  src="https://tawk.to/chat/662e9b46a0c6737bd131eda5/1hsj0t2v9"></Script>
+            <Script  strategy="lazyOnload" src="https://embed.tawk.to/662e9b46a0c6737bd131eda5/1ht2qoqtk"></Script>
             <body>{children}</body>
         </html>
     )

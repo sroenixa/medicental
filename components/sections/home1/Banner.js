@@ -15,10 +15,10 @@ export default function Banner() {
           <div className="col-lg-6 col-md-12 col-sm-12 content-column">
             <div className="content-box">
               <span className="upper-text">Highest level of service you can find</span>
-              <h2>Take <span>Care of Your</span> Health Now.</h2>
-              <p>We are dedicated to providing you with the highest quality services to protect and enhance your health.</p>
+              <h2>We drive the maximum limits of <span>satisfactions and the best services</span> what's possible for our patients.</h2>
+              {/* <p>We are dedicated to providing you with the highest quality services to protect and enhance your health.</p> */}
               <div className="btn-box">
-                <Link href="/services" className="theme-btn btn-two"><span>Explore Our Service</span></Link>
+                <Link href="/contact" className="theme-btn btn-two"><span>Free Consultation With Your Surgeon</span></Link>
               </div>
             </div>
           </div>

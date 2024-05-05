@@ -47,7 +47,7 @@ export default function chooseus() {
                     <div className="inner-box">
                       <div className="icon-box"><i className="icon-20"></i></div>
                       <h3>24/7 Services</h3>
-                      <p>Amet minim mollit non deserunt aliqua dolor do amet sint.</p>
+                      <p>We believe in the importance of personalized care and the value of being able to access healthcare services whenever it's needed.</p>
                     </div>
                   </div>
                 </div>
