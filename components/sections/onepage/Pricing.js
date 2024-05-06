@@ -12,7 +12,7 @@ export default function Pricing() {
           <div className="col-lg-4 col-md-6 col-sm-12 pricing-block">
             <div className="pricing-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
               <div className="pricing-table">
-                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-22.png)' }}></div>
+                <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-22.png)' }}></div>
                 <div className="table-header">
                   <h5>Standard Consultation</h5>
                   <h2>$49.99</h2>
@@ -37,7 +37,7 @@ export default function Pricing() {
           <div className="col-lg-4 col-md-6 col-sm-12 pricing-block">
             <div className="pricing-block-one active-block wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div className="pricing-table">
-                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-22.png)' }}></div>
+                <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-22.png)' }}></div>
                 <div className="table-header">
                   <h5>Annual Physical</h5>
                   <h2>$149.99</h2>
@@ -62,7 +62,7 @@ export default function Pricing() {
           <div className="col-lg-4 col-md-6 col-sm-12 pricing-block">
             <div className="pricing-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
               <div className="pricing-table">
-                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-22.png)' }}></div>
+                <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-22.png)' }}></div>
                 <div className="table-header">
                   <h5>Extended Consultation</h5>
                   <h2>$99.99</h2>

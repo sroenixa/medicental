@@ -5,8 +5,8 @@ export default function Service() {
   return (
     <section className="service-style-two sec-pad">
       <div className="pattern-layer">
-        <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-27.png)" }}></div>
-        <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-28.png)" }}></div>
+        <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/shape/shape-27.png)" }}></div>
+        <div className="pattern-2" style={{ backgroundImage: "url(/assets/images/shape/shape-28.png)" }}></div>
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50 light centred">
@@ -18,7 +18,7 @@ export default function Service() {
             <div className="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
               <div className="inner-box">
                 <div className="image-box">
-                  <figure className="image"><Link href="service-details-3"><img src="assets/images/service/service-1.jpg" alt="" /></Link></figure>
+                  <figure className="image"><Link href="service-details-3"><img src="/assets/images/service/service-1.jpg" alt="" /></Link></figure>
                   <div className="icon-box"><i className="icon-15"></i></div>
                 </div>
                 <div className="lower-content">
@@ -32,7 +32,7 @@ export default function Service() {
             <div className="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div className="inner-box">
                 <div className="image-box">
-                  <figure className="image"><Link href="service-details-6"><img src="assets/images/service/service-2.jpg" alt="" /></Link></figure>
+                  <figure className="image"><Link href="service-details-6"><img src="/assets/images/service/service-2.jpg" alt="" /></Link></figure>
                   <div className="icon-box"><i className="icon-16"></i></div>
                 </div>
                 <div className="lower-content">
@@ -46,7 +46,7 @@ export default function Service() {
             <div className="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
               <div className="inner-box">
                 <div className="image-box">
-                  <figure className="image"><Link href="service-details"><img src="assets/images/service/service-3.jpg" alt="" /></Link></figure>
+                  <figure className="image"><Link href="service-details"><img src="/assets/images/service/service-3.jpg" alt="" /></Link></figure>
                   <div className="icon-box"><i className="icon-17"></i></div>
                 </div>
                 <div className="lower-content">

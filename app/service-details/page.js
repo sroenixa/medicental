@@ -49,7 +49,7 @@ export default function service() {
                             <div className="service-block-one">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="assets/images/service/service-4.jpg" alt="" /></figure>
+                                        <figure className="image"><img src="/assets/images/service/service-4.jpg" alt="" /></figure>
                                         <div className="icon-box"><i className="icon-30"></i></div>
                                     </div>
                                     <div className="lower-content">
@@ -63,7 +63,7 @@ export default function service() {
                     <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div className="service-details-content">
                             <div className="content-one mb_60">
-                                <figure className="image-box mb_40"><img src="assets/images/service/service-7.jpg" alt="" /></figure>
+                                <figure className="image-box mb_40"><img src="/assets/images/service/service-7.jpg" alt="" /></figure>
                                 <div className="text-box">
                                     <h2>Cardiology</h2>
                                     <p>Quam arcu pretium quis quam sed, laorey afficits volutpat lobortis sem consq consequat lore dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboret dol aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exac consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
@@ -74,10 +74,10 @@ export default function service() {
                                 <div className="image-inner">
                                     <div className="row clearfix">
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box mb_30"><img src="assets/images/service/service-8.jpg" alt="" /></figure>
+                                            <figure className="image-box mb_30"><img src="/assets/images/service/service-8.jpg" alt="" /></figure>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box mb_30"><img src="assets/images/service/service-9.jpg" alt="" /></figure>
+                                            <figure className="image-box mb_30"><img src="/assets/images/service/service-9.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>

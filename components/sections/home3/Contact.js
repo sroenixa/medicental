@@ -28,7 +28,7 @@ export default function Contact() {
                             <div className="info-block-one">
                                 <h3>Mailing Address</h3>
                                 <div className="inner-box">
-                                    <div className="icon-box"><img src="assets/images/icons/icon-2.png" alt="" /></div>
+                                    <div className="icon-box"><img src="/assets/images/icons/icon-2.png" alt="" /></div>
                                     <p>3891 Ranchview Dr. Richardson, <br />California 62639</p>
                                 </div>
                             </div>

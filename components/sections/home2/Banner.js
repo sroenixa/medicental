@@ -35,8 +35,8 @@ export default function Banner() {
     <section className="banner-style-two p_relative">
       <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-nav-none owl-dots-none">                    
                     <SwiperSlide className="slide-item">
-                    <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-1.jpg)' }}></div>
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-2.png" alt="" /></figure>
+                    <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/banner/banner-1.jpg)' }}></div>
+                    <figure className="image-layer"><img src="/assets/images/banner/banner-img-2.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <span className="upper-text">The Art of Healthcare Starts Right Now</span>
@@ -50,8 +50,8 @@ export default function Banner() {
           </SwiperSlide>  
         {/* Repeat the above structure for each slide-item as needed */}
         <SwiperSlide className="slide-item">
-        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-1.jpg)' }}></div>
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-2.png" alt="" /></figure>
+        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/banner/banner-1.jpg)' }}></div>
+                    <figure className="image-layer"><img src="/assets/images/banner/banner-img-2.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <span className="upper-text">The Art of Healthcare Starts Right Now</span>
@@ -65,8 +65,8 @@ export default function Banner() {
                     </SwiperSlide> 
         {/* Repeat the above structure for each slide-item as needed */}
         <SwiperSlide className="slide-item">
-        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-1.jpg)' }}></div>
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-2.png" alt="" /></figure>
+        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/banner/banner-1.jpg)' }}></div>
+                    <figure className="image-layer"><img src="/assets/images/banner/banner-img-2.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <span className="upper-text">The Art of Healthcare Starts Right Now</span>

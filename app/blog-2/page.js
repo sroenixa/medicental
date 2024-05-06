@@ -77,7 +77,7 @@ export default function Home() {
                             <div className="blog-classic-content">
                             <div className="news-block-one">
                                 <div className="inner-box">
-                                <figure className="image-box"><Link href="blog-details"><img src="assets/images/news/news-7.jpg" alt="" /></Link></figure>
+                                <figure className="image-box"><Link href="blog-details"><img src="/assets/images/news/news-7.jpg" alt="" /></Link></figure>
                                 <div className="lower-content">
                                     <ul className="post-info mb_15 clearfix">
                                     <li><Link href="blog-details">Admin</Link></li>
@@ -95,7 +95,7 @@ export default function Home() {
                             {/* Repeat similar blocks for other news items */}
                             <div className="news-block-one">
                                                 <div className="inner-box">
-                                                    <figure className="image-box"><Link href="blog-details"><img src="assets/images/news/news-8.jpg" alt="" /></Link></figure>
+                                                    <figure className="image-box"><Link href="blog-details"><img src="/assets/images/news/news-8.jpg" alt="" /></Link></figure>
                                                     <div className="lower-content">
                                                         <ul className="post-info mb_15 clearfix">
                                                             <li><Link href="blog-details">Admin</Link></li>
@@ -113,7 +113,7 @@ export default function Home() {
                             {/* Repeat similar blocks for other news items */}
                             <div className="news-block-one">
                                                 <div className="inner-box">
-                                                    <figure className="image-box"><Link href="blog-details"><img src="assets/images/news/news-9.jpg" alt="" /></Link></figure>
+                                                    <figure className="image-box"><Link href="blog-details"><img src="/assets/images/news/news-9.jpg" alt="" /></Link></figure>
                                                     <div className="lower-content">
                                                         <ul className="post-info mb_15 clearfix">
                                                             <li><Link href="blog-details">Admin</Link></li>
@@ -131,7 +131,7 @@ export default function Home() {
                             {/* Repeat similar blocks for other news items */}
                             <div className="news-block-one">
                                                 <div className="inner-box">
-                                                    <figure className="image-box"><Link href="blog-details"><img src="assets/images/news/news-10.jpg" alt="" /></Link></figure>
+                                                    <figure className="image-box"><Link href="blog-details"><img src="/assets/images/news/news-10.jpg" alt="" /></Link></figure>
                                                     <div className="lower-content">
                                                         <ul className="post-info mb_15 clearfix">
                                                             <li><Link href="blog-details">Admin</Link></li>

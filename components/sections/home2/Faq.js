@@ -22,7 +22,7 @@ export default function faq() {
     }
   return (
     <section className="faq-section sec-pad">
-       <figure className="image-layer"><img src="assets/images/resource/faq-1.png" alt="" /></figure>
+       <figure className="image-layer"><img src="/assets/images/resource/faq-1.png" alt="" /></figure>
       <div className="auto-container">
       <div className="sec-title centred mb_50">
                     <span className="sub-title">FAQ'S</span>
@@ -87,7 +87,7 @@ export default function faq() {
           <div className="col-lg-6 col-md-12 col-sm-12 image-column">
             <div className="image_block_four">
               <div className="image-box ml_30">
-                <div className="image-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-22.png)' }}></div>
+                <div className="image-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-22.png)' }}></div>
              
               </div>
             </div>

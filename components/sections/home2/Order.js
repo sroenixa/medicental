@@ -3,7 +3,7 @@ import React from 'react';
 export default function order() {
   return (
     <section className="order-service">
-      <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-17.png)' }}></div>
+      <div className="pattern-layer" style={{ backgroundImage: 'url(/assets/images/shape/shape-17.png)' }}></div>
       <div className="auto-container">
         <div className="text-box">
           <h2>Order service online</h2>

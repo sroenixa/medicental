@@ -7,9 +7,9 @@ export default function Team() {
             
             <section className="team-section sec-pad bg-color-1 centred">
             <div className="shape">
-                <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+                <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
                 <div className="shape-2"></div>
-                <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-16.png)' }}></div>
+                <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(/assets/images/shape/shape-16.png)' }}></div>
             </div>
             <div className="auto-container">
                 <div className="sec-title mb_50">
@@ -21,7 +21,7 @@ export default function Team() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-1.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>
@@ -40,7 +40,7 @@ export default function Team() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-2.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>
@@ -59,7 +59,7 @@ export default function Team() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-3.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>
@@ -78,7 +78,7 @@ export default function Team() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-4.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>

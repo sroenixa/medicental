@@ -11,7 +11,7 @@ export default function Pricing() {
         <div className="row clearfix">
           <div className="col-lg-4 col-md-6 col-sm-12 pricing-block">
             <div className="pricing-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-              <div className="pricing-table"  style={{ backgroundImage: "url(assets/images/custom/dental.png)", backgroundSize:"cover"}}>
+              <div className="pricing-table"  style={{ backgroundImage: "url(/assets/images/custom/dental.png)", backgroundSize:"cover"}}>
               <div
                     style={{
                       position: 'absolute',
@@ -31,7 +31,7 @@ export default function Pricing() {
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 pricing-block">
             <div className="pricing-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <div className="pricing-table"  style={{ backgroundImage: "url(assets/images/custom/cosmetic.png)", backgroundSize:"cover"}}>
+            <div className="pricing-table"  style={{ backgroundImage: "url(/assets/images/custom/cosmetic.png)", backgroundSize:"cover"}}>
               <div
                     style={{
                       position: 'absolute',
@@ -51,7 +51,7 @@ export default function Pricing() {
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 pricing-block">
             <div className="pricing-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <div className="pricing-table"  style={{ backgroundImage: "url(assets/images/custom/hair.png)", backgroundSize:"cover"}}>
+            <div className="pricing-table"  style={{ backgroundImage: "url(/assets/images/custom/hair.png)", backgroundSize:"cover"}}>
               <div
                     style={{
                       position: 'absolute',

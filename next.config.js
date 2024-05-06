@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: 'http://medicental.com',
+    assetPrefix: '/',
     distDir: 'dist',
+    trailingSlash: true
 }
 
 module.exports = nextConfig

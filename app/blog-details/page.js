@@ -59,7 +59,7 @@ export default function Home() {
                                 </div>
                                 <div className="widget-content post-inner">
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="blog-details"><img src="assets/images/news/post-1.jpg" alt="" /></Link></figure>
+                                        <figure className="post-thumb"><Link href="blog-details"><img src="/assets/images/news/post-1.jpg" alt="" /></Link></figure>
                                         <h6><Link href="blog-details">What Causes Inherited Retinal Diseases?</Link></h6>
                                         <ul className="post-info clearfix">
                                             <li>09 Jan 2022</li>
@@ -67,7 +67,7 @@ export default function Home() {
                                         </ul>
                                     </div>
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="blog-details"><img src="assets/images/news/post-2.jpg" alt="" /></Link></figure>
+                                        <figure className="post-thumb"><Link href="blog-details"><img src="/assets/images/news/post-2.jpg" alt="" /></Link></figure>
                                         <h6><Link href="blog-details">How reliece can help you manage diabetes</Link></h6>
                                         <ul className="post-info clearfix">
                                             <li>10 Jan 2022</li>
@@ -75,7 +75,7 @@ export default function Home() {
                                         </ul>
                                     </div>
                                     <div className="post">
-                                        <figure className="post-thumb"><Link href="blog-details"><img src="assets/images/news/post-3.jpg" alt="" /></Link></figure>
+                                        <figure className="post-thumb"><Link href="blog-details"><img src="/assets/images/news/post-3.jpg" alt="" /></Link></figure>
                                         <h6><Link href="blog-details">Prepare to Speak with Your Eye Specialist.</Link></h6>
                                         <ul className="post-info clearfix">
                                             <li>11 Jan 2022</li>
@@ -92,22 +92,22 @@ export default function Home() {
                                 <div className="widget-content">
                                     <ul className="image-list clearfix">
                                         <li>
-                                            <figure className="image"><Link href="assets/images/news/gallery-1.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-1.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/assets/images/news/gallery-1.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-1.jpg" alt="" /></Link></figure>
                                         </li>
                                         <li>
-                                            <figure className="image"><Link href="assets/images/news/gallery-2.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-2.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/assets/images/news/gallery-2.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-2.jpg" alt="" /></Link></figure>
                                         </li>
                                         <li>
-                                            <figure className="image"><Link href="assets/images/news/gallery-3.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-3.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/assets/images/news/gallery-3.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-3.jpg" alt="" /></Link></figure>
                                         </li>
                                         <li>
-                                            <figure className="image"><Link href="assets/images/news/gallery-4.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-4.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/assets/images/news/gallery-4.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-4.jpg" alt="" /></Link></figure>
                                         </li>
                                         <li>
-                                            <figure className="image"><Link href="assets/images/news/gallery-5.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-5.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/assets/images/news/gallery-5.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-5.jpg" alt="" /></Link></figure>
                                         </li>
                                         <li>
-                                            <figure className="image"><Link href="assets/images/news/gallery-6.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-6.jpg" alt="" /></Link></figure>
+                                            <figure className="image"><Link href="/assets/images/news/gallery-6.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-6.jpg" alt="" /></Link></figure>
                                         </li>
                                     </ul>
                                 </div>
@@ -136,7 +136,7 @@ export default function Home() {
                         <div className="blog-details-content">
                         <div className="news-block-one">
                             <div className="inner-box">
-                            <figure className="image-box"><img src="assets/images/news/news-11.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/news/news-11.jpg" alt="" /></figure>
                             <div className="lower-content">
                                 <ul className="post-info mb_15 clearfix">
                                 <li><Link href="blog-details">Admin</Link></li>
@@ -152,10 +152,10 @@ export default function Home() {
                                         <div className="two-image">
                                             <div className="row clearfix">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                    <figure className="image mb_30"><img src="assets/images/news/news-12.jpg" alt="" /></figure>
+                                                    <figure className="image mb_30"><img src="/assets/images/news/news-12.jpg" alt="" /></figure>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                    <figure className="image mb_30"><img src="assets/images/news/news-13.jpg" alt="" /></figure>
+                                                    <figure className="image mb_30"><img src="/assets/images/news/news-13.jpg" alt="" /></figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,7 +204,7 @@ export default function Home() {
                             <div className="comment-inner">
                             <div className="comment">
                             <div className="comment-thumb">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-1.jpg" alt="" /></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-1.jpg" alt="" /></figure>
                                             <span className="date">08 Jan 2023</span>
                                         </div>
                                         <h4>Jane Cooper</h4>
@@ -215,7 +215,7 @@ export default function Home() {
                             </div>
                             <div className="comment">
                                         <div className="comment-thumb">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-2.jpg" alt="" /></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-2.jpg" alt="" /></figure>
                                             <span className="date">07 Jan 2023</span>
                                         </div>
                                         <h4>Marvin McKinney</h4>

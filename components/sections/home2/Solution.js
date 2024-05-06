@@ -34,8 +34,8 @@ export default function Solution() {
         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
           <div className="image_block_two">
             <div className="image-box">
-              <figure className="image image-1"><img src="assets/images/resource/skills-1.jpg" alt="" /></figure>
-              <figure className="image image-2"><img src="assets/images/resource/skills-2.jpg" alt="" /></figure>
+              <figure className="image image-1"><img src="/assets/images/resource/skills-1.jpg" alt="" /></figure>
+              <figure className="image image-2"><img src="/assets/images/resource/skills-2.jpg" alt="" /></figure>
               <div className="icon-box"><i className="icon-33"></i></div>
             </div>
           </div>

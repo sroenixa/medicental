@@ -56,11 +56,11 @@ export default function ProjectSlider0() {
                 <div className="project-block-one">
                 <div className="inner-box">
                     <figure className="image-box">
-                    <img src="assets/images/project/project-1.jpg" alt="" />
+                    <img src="/assets/images/project/project-1.jpg" alt="" />
                     </figure>
                     <div className="content-box">
                     <div className="view-btn">
-                        <Link href="assets/images/project/project-1.jpg" className="lightbox-image" data-fancybox="gallery">
+                        <Link href="/assets/images/project/project-1.jpg" className="lightbox-image" data-fancybox="gallery">
                         <i className="icon-23"></i>
                         </Link>
                     </div>
@@ -76,11 +76,11 @@ export default function ProjectSlider0() {
                 <div className="project-block-one">
                 <div className="inner-box">
                     <figure className="image-box">
-                    <img src="assets/images/project/project-2.jpg" alt="" />
+                    <img src="/assets/images/project/project-2.jpg" alt="" />
                     </figure>
                     <div className="content-box">
                     <div className="view-btn">
-                        <Link href="assets/images/project/project-2.jpg" className="lightbox-image" data-fancybox="gallery">
+                        <Link href="/assets/images/project/project-2.jpg" className="lightbox-image" data-fancybox="gallery">
                         <i className="icon-23"></i>
                         </Link>
                     </div>
@@ -97,11 +97,11 @@ export default function ProjectSlider0() {
                 <div className="project-block-one">
       <div className="inner-box">
         <figure className="image-box">
-          <img src="assets/images/project/project-3.jpg" alt="" />
+          <img src="/assets/images/project/project-3.jpg" alt="" />
         </figure>
         <div className="content-box">
           <div className="view-btn">
-            <Link href="assets/images/project/project-3.jpg" className="lightbox-image" data-fancybox="gallery">
+            <Link href="/assets/images/project/project-3.jpg" className="lightbox-image" data-fancybox="gallery">
               <i className="icon-23"></i>
             </Link>
           </div>
@@ -117,11 +117,11 @@ export default function ProjectSlider0() {
                 <div className="project-block-one">
                 <div className="inner-box">
                     <figure className="image-box">
-                    <img src="assets/images/project/project-1.jpg" alt="" />
+                    <img src="/assets/images/project/project-1.jpg" alt="" />
                     </figure>
                     <div className="content-box">
                     <div className="view-btn">
-                        <Link href="assets/images/project/project-1.jpg" className="lightbox-image" data-fancybox="gallery">
+                        <Link href="/assets/images/project/project-1.jpg" className="lightbox-image" data-fancybox="gallery">
                         <i className="icon-23"></i>
                         </Link>
                     </div>
@@ -137,11 +137,11 @@ export default function ProjectSlider0() {
                 <div className="project-block-one">
                 <div className="inner-box">
                     <figure className="image-box">
-                    <img src="assets/images/project/project-2.jpg" alt="" />
+                    <img src="/assets/images/project/project-2.jpg" alt="" />
                     </figure>
                     <div className="content-box">
                     <div className="view-btn">
-                        <Link href="assets/images/project/project-2.jpg" className="lightbox-image" data-fancybox="gallery">
+                        <Link href="/assets/images/project/project-2.jpg" className="lightbox-image" data-fancybox="gallery">
                         <i className="icon-23"></i>
                         </Link>
                     </div>
@@ -157,11 +157,11 @@ export default function ProjectSlider0() {
                 <div className="project-block-one">
       <div className="inner-box">
         <figure className="image-box">
-          <img src="assets/images/project/project-3.jpg" alt="" />
+          <img src="/assets/images/project/project-3.jpg" alt="" />
         </figure>
         <div className="content-box">
           <div className="view-btn">
-            <Link href="assets/images/project/project-3.jpg" className="lightbox-image" data-fancybox="gallery">
+            <Link href="/assets/images/project/project-3.jpg" className="lightbox-image" data-fancybox="gallery">
               <i className="icon-23"></i>
             </Link>
           </div>

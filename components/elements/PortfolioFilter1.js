@@ -58,7 +58,7 @@ export default function PortfolioFilter1() {
                 <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all cat-1 col-lg-4 col-md-6 col-sm-12">
                     <div className="gallery-block-one">
                         <div className="inner-box">
-                        <figure className="image-box"><img src="assets/images/gallery/gallery-1.jpg" alt="" /></figure>
+                        <figure className="image-box"><img src="/assets/images/gallery/gallery-1.jpg" alt="" /></figure>
                             <div className="content-box">
                                         <div className="link-box"><a href="project-details" className="lightbox-image" data-fancybox="gallery">
                                             <i className="icon-4"></i></a>
@@ -72,7 +72,7 @@ export default function PortfolioFilter1() {
                 <div className="col-lg-4 col-md-6 col-sm-12  masonry-item all cat-2 col-lg-4 col-md-6 col-sm-12">
                     <div className="gallery-block-one">
                         <div className="inner-box">
-                        <figure className="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt="" /></figure>
+                        <figure className="image-box"><img src="/assets/images/gallery/gallery-2.jpg" alt="" /></figure>
                             <div className="content-box">
                             <div className="link-box"><a href="project-details" className="lightbox-image" data-fancybox="gallery">
                                             <i className="icon-4"></i></a>
@@ -86,7 +86,7 @@ export default function PortfolioFilter1() {
                 <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all cat-1 cat-2 cat-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="gallery-block-one">
                         <div className="inner-box">
-                        <figure className="image-box"><img src="assets/images/gallery/gallery-3.jpg" alt="" /></figure>
+                        <figure className="image-box"><img src="/assets/images/gallery/gallery-3.jpg" alt="" /></figure>
                             <div className="content-box">
                             <div className="link-box"><a href="project-details" className="lightbox-image" data-fancybox="gallery">
                                             <i className="icon-4"></i></a>
@@ -101,7 +101,7 @@ export default function PortfolioFilter1() {
                 <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all cat-1 cat-3 col-lg-4 col-md-6 col-sm-12">
                     <div className="gallery-block-one">
                         <div className="inner-box">
-                        <figure className="image-box"><img src="assets/images/gallery/gallery-4.jpg" alt="" /></figure>
+                        <figure className="image-box"><img src="/assets/images/gallery/gallery-4.jpg" alt="" /></figure>
                         <div className="content-box">
                         <div className="link-box"><a href="project-details" className="lightbox-image" data-fancybox="gallery">
                                             <i className="icon-4"></i></a>
@@ -116,7 +116,7 @@ export default function PortfolioFilter1() {
                 <div className="col-lg-4 col-md-6 col-sm-12 masonry-item all cat-2 cat-1 col-lg-4 col-md-6 col-sm-12">
                     <div className="gallery-block-one">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="assets/images/gallery/gallery-5.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/gallery/gallery-5.jpg" alt="" /></figure>
                             <div className="content-box">
                             <div className="link-box"><a href="project-details" className="lightbox-image" data-fancybox="gallery">
                                             <i className="icon-4"></i></a>

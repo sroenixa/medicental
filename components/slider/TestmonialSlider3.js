@@ -62,7 +62,7 @@ export default function TestimonialSlider3() {
                     <div className="icon-box"><i className="icon-23"></i></div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
                     <div className="author-box">
-                      <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                      <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
@@ -82,7 +82,7 @@ export default function TestimonialSlider3() {
                     <div className="icon-box"><i className="icon-23"></i></div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
                     <div className="author-box">
-                      <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                      <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
@@ -102,7 +102,7 @@ export default function TestimonialSlider3() {
                     <div className="icon-box"><i className="icon-23"></i></div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
                     <div className="author-box">
-                      <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                      <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
@@ -122,7 +122,7 @@ export default function TestimonialSlider3() {
                     <div className="icon-box"><i className="icon-23"></i></div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
                     <div className="author-box">
-                      <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                      <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
@@ -142,7 +142,7 @@ export default function TestimonialSlider3() {
                     <div className="icon-box"><i className="icon-23"></i></div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
                     <div className="author-box">
-                      <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                      <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
@@ -162,7 +162,7 @@ export default function TestimonialSlider3() {
                     <div className="icon-box"><i className="icon-23"></i></div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
                     <div className="author-box">
-                      <figure className="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                      <figure className="author-thumb"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>

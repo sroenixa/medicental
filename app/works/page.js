@@ -12,8 +12,8 @@ export default function Home() {
                 <div>
                 <section className="process-section sec-pad bg-color-1">
                     <div className="shape">
-                        <div className="shape-1 float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-20.png)' }}></div>
-                        <div className="shape-2 float-bob-y" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+                        <div className="shape-1 float-bob-x" style={{ backgroundImage: 'url(/assets/images/shape/shape-20.png)' }}></div>
+                        <div className="shape-2 float-bob-y" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
                         <div className="shape-3"></div>
                     </div>
                     <div className="auto-container">
@@ -22,7 +22,7 @@ export default function Home() {
                         <h2>How it Helps You to <br />Keep Healthy</h2>
                         </div>
                         <div className="inner-container">
-                        <div className="arrow-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-18.png)' }}></div>
+                        <div className="arrow-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-18.png)' }}></div>
 
                         {/* Processing Blocks */}
                         {[1, 2, 3].map((count) => (
@@ -47,12 +47,12 @@ export default function Home() {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 thumb-column">
                             <div className="thumb-box">
-                                <div className="thumb thumb-1"><img src="assets/images/resource/thumb-1.png" alt="" /></div>
-                                <div className="thumb thumb-2"><img src="assets/images/resource/thumb-2.png" alt="" /></div>
-                                <div className="thumb thumb-3"><img src="assets/images/resource/thumb-3.png" alt="" /></div>
-                                <div className="thumb thumb-4"><img src="assets/images/resource/thumb-4.png" alt="" /></div>
-                                <div className="thumb thumb-5"><img src="assets/images/resource/thumb-5.png" alt="" /></div>
-                                <div className="thumb thumb-6"><img src="assets/images/resource/thumb-6.png" alt="" /></div>
+                                <div className="thumb thumb-1"><img src="/assets/images/resource/thumb-1.png" alt="" /></div>
+                                <div className="thumb thumb-2"><img src="/assets/images/resource/thumb-2.png" alt="" /></div>
+                                <div className="thumb thumb-3"><img src="/assets/images/resource/thumb-3.png" alt="" /></div>
+                                <div className="thumb thumb-4"><img src="/assets/images/resource/thumb-4.png" alt="" /></div>
+                                <div className="thumb thumb-5"><img src="/assets/images/resource/thumb-5.png" alt="" /></div>
+                                <div className="thumb thumb-6"><img src="/assets/images/resource/thumb-6.png" alt="" /></div>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -73,11 +73,11 @@ export default function Home() {
                 </section>
 
                 <section className="video-section alternat-2 p_relative">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/video-bg.jpg)" }}></div>
-                    <figure className="image-layer"><img src="assets/images/resource/video-2.png" alt="" /></figure>
+                    <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/background/video-bg.jpg)" }}></div>
+                    <figure className="image-layer"><img src="/assets/images/resource/video-2.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="inner-box">
-                            <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-17.png)" }}></div>
+                            <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-17.png)" }}></div>
                             <div className="video-btn">
                             <a onClick={() => setOpen(true)}><i className="fas fa-play"></i></a>
                             </div>
@@ -91,9 +91,9 @@ export default function Home() {
 
                 <section className="team-section sec-pad centred">
       <div className="shape">
-        <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+        <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
         <div className="shape-2"></div>
-        <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-16.png)' }}></div>
+        <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(/assets/images/shape/shape-16.png)' }}></div>
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50">
@@ -105,7 +105,7 @@ export default function Home() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-1.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>
@@ -124,7 +124,7 @@ export default function Home() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-2.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>
@@ -143,7 +143,7 @@ export default function Home() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-3.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>
@@ -162,7 +162,7 @@ export default function Home() {
                         <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-4.jpg" alt="" /></figure>
                                     <ul className="social-links clearfix">
                                         <li><Link href="/"><i className="icon-4"></i></Link></li>
                                         <li><Link href="/"><i className="icon-5"></i></Link></li>

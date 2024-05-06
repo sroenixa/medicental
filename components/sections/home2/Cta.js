@@ -7,10 +7,10 @@ export default function Cta() {
       <div
         className="bg-layer parallax-bg"
         data-parallax={{ y: 100 }}
-        style={{ backgroundImage: 'url(assets/images/background/cta-bg.jpg)' }}
+        style={{ backgroundImage: 'url(/assets/images/background/cta-bg.jpg)' }}
       ></div>
       <figure className="image-layer">
-        <img src="assets/images/resource/cta-1.png" alt="CTA" />
+        <img src="/assets/images/resource/cta-1.png" alt="CTA" />
       </figure>
       <div className="auto-container">
         <div className="inner-box">

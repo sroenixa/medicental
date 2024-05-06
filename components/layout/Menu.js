@@ -11,91 +11,92 @@ export default function Menu() {
             <ul className="navigation clearfix">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about-us">About Us</Link></li>
-                <li className="dropdown"><Link href="/">Find Treatment</Link>
+                <li><Link href="/team">Doctors</Link></li>
+                <li className="dropdown"><Link href="#">Find Treatment</Link>
                     <ul>
-                        <li className="dropdown"><Link href="/dummy-link">Hair Transplant</Link>
+                        <li className="dropdown"><Link href="#">Hair Transplant</Link>
                             <ul className="p-2">
-                                <li><Link href="/dummy-link">FUE Hair Transplant</Link></li>
-                                <li><Link href="/dummy-link">FUT Hair Transplant</Link></li>
-                                <li><Link href="/dummy-link">DHI Hair Transplant</Link></li>
-                                <li><Link href="/dummy-link">Beard Transplant</Link></li>
-                                <li><Link href="/dummy-link">Eyebrow Transplant</Link></li>
-                                <li><Link href="/dummy-link">Mustache Transplant</Link></li>
-                                <li><Link href="/dummy-link">Sapphire Hair Transplant</Link></li>
-                                <li><Link href="/dummy-link">PRP</Link></li>
+                                <li><Link href="#">FUE Hair Transplant</Link></li>
+                                <li><Link href="#">FUT Hair Transplant</Link></li>
+                                <li><Link href="#">DHI Hair Transplant</Link></li>
+                                <li><Link href="#">Beard Transplant</Link></li>
+                                <li><Link href="#">Eyebrow Transplant</Link></li>
+                                <li><Link href="#">Mustache Transplant</Link></li>
+                                <li><Link href="#">Sapphire Hair Transplant</Link></li>
+                                <li><Link href="#">PRP</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><Link href="/dummy-link">Plastic Surgery</Link>
+                        <li className="dropdown"><Link href="#">Plastic Surgery</Link>
                             <ul className="p-2">
-                                <li><Link href="/dummy-link">Liposuction</Link></li>
-                                <li><Link href="/dummy-link">Rhinoplasty</Link></li>
-                                <li><Link href="/dummy-link">Breast Implants</Link></li>
-                                <li><Link href="/dummy-link">Butt Implants</Link></li>
-                                <li><Link href="/dummy-link">Tummy Tuck</Link></li>
-                                <li><Link href="/dummy-link">Mummy Makeover</Link></li>
-                                <li><Link href="/dummy-link">Eyelid Surgery</Link></li>
-                                <li><Link href="/dummy-link">Facelift</Link></li>
-                                <li><Link href="/dummy-link">Breast Lift</Link></li>
-                                <li><Link href="/dummy-link">Brazilian Butt Lift</Link></li>
-                                <li><Link href="/dummy-link">Body Lift</Link></li>
-                                <li><Link href="/dummy-link">Arm Lift</Link></li>
-                                <li><Link href="/dummy-link">Chin Implant</Link></li>
-                                <li><Link href="/dummy-link">Ultrasonic Rhinoplasty</Link></li>
-                                <li><Link href="/dummy-link">Fat Transfer</Link></li>
-                                <li><Link href="/dummy-link">Gynecomastia</Link></li>
-                                <li><Link href="/dummy-link">Neck Lift</Link></li>
-                                <li><Link href="/dummy-link">Brow Lift</Link></li>
-                                <li><Link href="/dummy-link">Fat Transfer</Link></li>
+                                <li><Link href="#">Liposuction</Link></li>
+                                <li><Link href="#">Rhinoplasty</Link></li>
+                                <li><Link href="#">Breast Implants</Link></li>
+                                <li><Link href="#">Butt Implants</Link></li>
+                                <li><Link href="#">Tummy Tuck</Link></li>
+                                <li><Link href="#">Mummy Makeover</Link></li>
+                                <li><Link href="#">Eyelid Surgery</Link></li>
+                                <li><Link href="#">Facelift</Link></li>
+                                <li><Link href="#">Breast Lift</Link></li>
+                                <li><Link href="#">Brazilian Butt Lift</Link></li>
+                                <li><Link href="#">Body Lift</Link></li>
+                                <li><Link href="#">Arm Lift</Link></li>
+                                <li><Link href="#">Chin Implant</Link></li>
+                                <li><Link href="#">Ultrasonic Rhinoplasty</Link></li>
+                                <li><Link href="#">Fat Transfer</Link></li>
+                                <li><Link href="#">Gynecomastia</Link></li>
+                                <li><Link href="#">Neck Lift</Link></li>
+                                <li><Link href="#">Brow Lift</Link></li>
+                                <li><Link href="#">Fat Transfer</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><Link href="/dummy-link">Bariatric Surgery</Link>
+                        <li className="dropdown"><Link href="#">Bariatric Surgery</Link>
                             <ul className="p-2">
-                                <li><Link href="/dummy-link">Gastric Bypass Surgery</Link></li>
-                                <li><Link href="/dummy-link">Gastric Sleeve</Link></li>
-                                <li><Link href="/dummy-link">Gastric Balloon</Link></li>
-                                <li><Link href="/dummy-link">Gastric Band</Link></li>
-                                <li><Link href="/dummy-link">Endoscopic Sleeve Gastroplasty</Link></li>
-                                <li><Link href="/dummy-link">Diabetes Surgery</Link></li>
-                                <li><Link href="/dummy-link">Laparoscopic Ileal Interposition</Link></li>
-                                <li><Link href="/dummy-link">Floppy Nissen Fundoplication</Link></li>
-                                <li><Link href="/dummy-link">Gastric Sleeve Revision</Link></li>
+                                <li><Link href="#">Gastric Bypass Surgery</Link></li>
+                                <li><Link href="#">Gastric Sleeve</Link></li>
+                                <li><Link href="#">Gastric Balloon</Link></li>
+                                <li><Link href="#">Gastric Band</Link></li>
+                                <li><Link href="#">Endoscopic Sleeve Gastroplasty</Link></li>
+                                <li><Link href="#">Diabetes Surgery</Link></li>
+                                <li><Link href="#">Laparoscopic Ileal Interposition</Link></li>
+                                <li><Link href="#">Floppy Nissen Fundoplication</Link></li>
+                                <li><Link href="#">Gastric Sleeve Revision</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><Link href="/dummy-link">Dentistry</Link>
+                        <li className="dropdown"><Link href="#">Dentistry</Link>
                             <ul className="p-2">
-                                <li><Link href="/dummy-link">Root Canal Treatment</Link></li>
-                                <li><Link href="/dummy-link">Teeth Cleaning</Link></li>
-                                <li><Link href="/dummy-link">Crowns</Link></li>
-                                <li><Link href="/dummy-link">Teeth Whitening</Link></li>
-                                <li><Link href="/dummy-link">Sinus Lift</Link></li>
-                                <li><Link href="/dummy-link">Hollywood Smile</Link></li>
-                                <li><Link href="/dummy-link">All-on-4</Link></li>
-                                <li><Link href="/dummy-link">Bone Graft</Link></li>
-                                <li><Link href="/dummy-link">Tooth Filling</Link></li>
-                                <li><Link href="/dummy-link">Dental Implants</Link></li>
-                                <li><Link href="/dummy-link">Veneers</Link></li>
-                                <li><Link href="/dummy-link">Dental Bridge</Link></li>
+                                <li><Link href="#">Root Canal Treatment</Link></li>
+                                <li><Link href="#">Teeth Cleaning</Link></li>
+                                <li><Link href="#">Crowns</Link></li>
+                                <li><Link href="#">Teeth Whitening</Link></li>
+                                <li><Link href="#">Sinus Lift</Link></li>
+                                <li><Link href="#">Hollywood Smile</Link></li>
+                                <li><Link href="#">All-on-4</Link></li>
+                                <li><Link href="#">Bone Graft</Link></li>
+                                <li><Link href="#">Tooth Filling</Link></li>
+                                <li><Link href="#">Dental Implants</Link></li>
+                                <li><Link href="#">Veneers</Link></li>
+                                <li><Link href="#">Dental Bridge</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><Link href="/dummy-link">Eye Care</Link>
+                        <li className="dropdown"><Link href="#">Eye Care</Link>
                             <ul className="p-2">
-                                <li><Link href="/dummy-link">LASIK Eye Surgery</Link></li>
-                                <li><Link href="/dummy-link">Cataract Surgery</Link></li>
-                                <li><Link href="/dummy-link">Smile Eye Surgery</Link></li>
-                                <li><Link href="/dummy-link">PRK Eye Surgery</Link></li>
-                                <li><Link href="/dummy-link">Corneal Transplant</Link></li>
-                                <li><Link href="/dummy-link">Strabismus Treatment</Link></li>
-                                <li><Link href="/dummy-link">Artificial Corneal Transplant</Link></li>
+                                <li><Link href="#">LASIK Eye Surgery</Link></li>
+                                <li><Link href="#">Cataract Surgery</Link></li>
+                                <li><Link href="#">Smile Eye Surgery</Link></li>
+                                <li><Link href="#">PRK Eye Surgery</Link></li>
+                                <li><Link href="#">Corneal Transplant</Link></li>
+                                <li><Link href="#">Strabismus Treatment</Link></li>
+                                <li><Link href="#">Artificial Corneal Transplant</Link></li>
                             </ul>
                         </li>
-                        <li><Link href="/dummy-link">General Surgery</Link></li>
-                        <li className="dropdown"><Link href="/dummy-link">Others</Link>
+                        <li><Link href="#">General Surgery</Link></li>
+                        <li className="dropdown"><Link href="#">Others</Link>
                             <ul className="p-2">
-                                <li><Link href="/dummy-link">Diagnostic Imaging</Link></li>
-                                <li><Link href="/dummy-link">Ear, Nose and Throat</Link></li>
-                                <li><Link href="/dummy-link">Orthopedics</Link></li>
-                                <li><Link href="/dummy-link">Spinal Surgery</Link></li>
-                                <li><Link href="/dummy-link">Oncology</Link></li>
+                                <li><Link href="#">Diagnostic Imaging</Link></li>
+                                <li><Link href="#">Ear, Nose and Throat</Link></li>
+                                <li><Link href="#">Orthopedics</Link></li>
+                                <li><Link href="#">Spinal Surgery</Link></li>
+                                <li><Link href="#">Oncology</Link></li>
                             </ul>
                         </li>
                     </ul>

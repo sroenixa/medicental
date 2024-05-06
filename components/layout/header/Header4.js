@@ -14,7 +14,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
             <ul className="info-list clearfix">
               <li><i className="icon-1"></i>Mon - Fri 8:00 - 18:00 / Sunday 8:00 - 14:00</li>
               <li><i className="icon-2"></i>Email: <Link href="tel:01989526503">0198-9526503</Link></li>
-              <li><img src="assets/images/icons/icon-1.png" alt=""/> 47 Bakery Street, London, UK</li>
+              <li><img src="/assets/images/icons/icon-1.png" alt=""/> 47 Bakery Street, London, UK</li>
             </ul>
             <ul className="social-links clearfix">
               <li><Link href="/"><i className="icon-4"></i></Link></li>
@@ -32,7 +32,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                         <div className="logo-box">
-                            <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt=""/></Link></figure>
+                            <figure className="logo"><Link href="/"><img src="/assets/images/logo.png" alt=""/></Link></figure>
                         </div>
                         <div className="menu-area">
                         {/* Mobile Navigation Toggler */}
@@ -67,7 +67,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                         <div className="logo-box">
-                            <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt=""/></Link></figure>
+                            <figure className="logo"><Link href="/"><img src="/assets/images/logo.png" alt=""/></Link></figure>
                         </div>
                                     
                         <div className="menu-area">

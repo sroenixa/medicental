@@ -51,13 +51,13 @@ export default function Team() {
   return (
     <section className="team-section sec-pad centred" id="team">
       <div className="pattern-layer">
-        <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-13.png)' }}></div>
-        <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}></div>
+        <div className="pattern-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-13.png)' }}></div>
+        <div className="pattern-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-14.png)' }}></div>
       </div>
       <div className="shape">
-        <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+        <div className="shape-1 float-bob-y" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
         <div className="shape-2"></div>
-        <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-16.png)' }}></div>
+        <div className="shape-3 float-bob-x" style={{ backgroundImage: 'url(/assets/images/shape/shape-16.png)' }}></div>
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50">

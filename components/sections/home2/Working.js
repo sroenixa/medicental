@@ -3,7 +3,7 @@ import React from 'react';
 export default function working() {
   return (
     <section className="working-section centred">
-      <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-21.png)" }}></div>
+      <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-21.png)" }}></div>
       <div className="auto-container">
         <div className="sec-title mb_60">
           <span className="sub-title">Service Industry</span>
@@ -12,7 +12,7 @@ export default function working() {
         <div className="content-inner">
           <div className="working-block-one">
             <div className="inner-box">
-              <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-20.png)" }}></div>
+              <div className="arrow-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-20.png)" }}></div>
               <div className="icon-box">
                 <div className="icon"><i className="icon-29"></i></div>
                 <span className="count-text">01</span>
@@ -23,7 +23,7 @@ export default function working() {
           </div>
           <div className="working-block-one">
             <div className="inner-box">
-              <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-20.png)" }}></div>
+              <div className="arrow-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-20.png)" }}></div>
               <div className="icon-box">
                 <div className="icon"><i className="icon-30"></i></div>
                 <span className="count-text">02</span>
@@ -34,7 +34,7 @@ export default function working() {
           </div>
           <div className="working-block-one">
             <div className="inner-box">
-              <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-20.png)" }}></div>
+              <div className="arrow-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-20.png)" }}></div>
               <div className="icon-box">
                 <div className="icon"><i className="icon-31"></i></div>
                 <span className="count-text">03</span>

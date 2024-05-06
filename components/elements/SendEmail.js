@@ -24,7 +24,7 @@ export default function SendMailForm() {
             message
         }
         if(name.length > 0 && surname.length > 0 && phone.length > 0 && subject.length > 0 &&  email.length > 0 && message.length > 0){
-            fetch('/api/contact', {
+            fetch('/php/contact.php', {
                 method: 'POST',
                 headers: {
                   'Accept': 'application/json, text/plain, */*',

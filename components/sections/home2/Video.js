@@ -7,11 +7,11 @@ export default function Video() {
     return (
         <>
         <section className="video-section alternat-2 p_relative">
-            <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/video-bg.jpg)" }}></div>
-            <figure className="image-layer"><img src="assets/images/resource/video-2.png" alt="" /></figure>
+            <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/background/video-bg.jpg)" }}></div>
+            <figure className="image-layer"><img src="/assets/images/resource/video-2.png" alt="" /></figure>
             <div className="auto-container">
                 <div className="inner-box">
-                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-17.png)" }}></div>
+                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-17.png)" }}></div>
                     <div className="video-btn">
                     <a onClick={() => setOpen(true)}><i className="fas fa-play"></i>
                     <span className="border-animation border-1"></span>

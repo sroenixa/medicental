@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="team-details-content mb_50">
                     <div className="row clearfix">
                         <div className="col-lg-5 col-md-12 col-sm-12 image-column">
-                            <figure className="image-box mr_15"><img src="assets/images/team/team-13.jpg" alt="" /></figure>
+                            <figure className="image-box mr_15"><img src="/assets/images/team/team-13.jpg" alt="" /></figure>
                         </div>
                         <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                             <div className="content-box">
