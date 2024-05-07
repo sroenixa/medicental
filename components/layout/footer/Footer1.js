@@ -32,7 +32,7 @@ export default function Footer1() {
                                     <ul className="info-list">
                                         <li><img src="/assets/images/icons/icon-1.png" alt="" />İstanbul,Turkey</li>
                                         <li><i className="icon-2"></i><Link href="tel:+905402440212">+905402440212</Link></li>
-                                        <li><i className="icon-26"></i><Link href="mailto:info@medicental.com">info@medicental.com</Link></li>
+                                        <li><i className="icon-26"></i><Link href="mailto:contact@medicental.com">contact@medicental.com</Link></li>
                                     </ul>
                                 </div>
                             </div>

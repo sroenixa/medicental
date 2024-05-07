@@ -32,13 +32,16 @@ export const metadata = {
         image: 'https://medicental.com/assets/medical-tourism.jpg',
         url: "https://www.medicental.com",
     },
-    twittwe: {
+    twitter: {
         card: 'summary_large_image',
         title: 'Medical Tourism - High-Quality Health Services',
         description: 'Medical tourism company offers high-quality health services. Discover the best doctors and medical services worldwide.',
         image: 'https://medicental.com/assets/medical-tourism.jpg',
         url: "https://www.medicental.com",
-    }
+    },
+    verification: {
+        google: "3h3CTfAPA9VqcpsoLQrfztdDb_-29nXZhQPJ8VjPNyA",
+    },
 }
 
 export default function RootLayout({ children }) {

@@ -2592,6 +2592,18 @@ button.ltr {
     float: none;
   }
 
+  
+.header-style-two .header-top{
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.header-style-two .header-lower .outer-container{
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+
 
 }
 

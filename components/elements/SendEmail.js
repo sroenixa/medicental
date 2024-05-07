@@ -1,5 +1,6 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
+import emailjs from 'emailjs-com';
 
 
 export default function SendMailForm() {
@@ -24,26 +25,20 @@ export default function SendMailForm() {
             message
         }
         if(name.length > 0 && surname.length > 0 && phone.length > 0 && subject.length > 0 &&  email.length > 0 && message.length > 0){
-            fetch('/php/contact.php', {
-                method: 'POST',
-                headers: {
-                  'Accept': 'application/json, text/plain, */*',
-                  'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-              }).then(async (res) => {
-                  const data = await res.json();
-                  if (data.success) {
-                      setSubmitted(true) 
-                      setDisable(false);
-                      setName('')
-                      setSurname('')
-                      setSubject('')
-                      setName('')
-                      setEmail('')
-                      setMessage('')
-                  }
-              })
+            emailjs.send('service_05hamch', 'template_g04f1ai', data, 'ggoDRwfglIMo8tQWu')
+                .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                setSubmitted(true) 
+                setDisable(false);
+                setName('')
+                setSurname('')
+                setSubject('')
+                setName('')
+                setEmail('')
+                setMessage('')
+                }, (error) => {
+                console.log('FAILED...', error);
+            });
         }else{
             alert("Please fill all the fields");
             setDisable(false);
